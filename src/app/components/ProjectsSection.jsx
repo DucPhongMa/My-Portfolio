@@ -18,7 +18,7 @@ const projectsData = [
         title: "Museum of Art Website",
         description: "A functioning backend and frontend website allowing users to search art items and keep track of their favorite list of arts as well as their search history.",
         technology: "Technology used: HTML5, CSS3, Bootstrap 5, JavaScript, NodeJS, Express.js, MongoDB, React.js/Next.js",
-        image: "/images/projects/Museum.jpg",
+        image: "/images/projects/museum_2.png",
         tag: ["All"],
         gitURL: "https://github.com/DucPhongMa/WEB422_Assignment4",
         previewURL: "https://web-422-assignment4.vercel.app/"
