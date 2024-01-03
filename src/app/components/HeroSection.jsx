@@ -19,14 +19,13 @@ const HeroSection = () => {
                         <br></br>
                         <TypeAnimation
                             sequence={[
-                                // Same substring at the start will only be typed out once, initially
                                 'Kevin',
-                                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                                1000, // wait 1s before replacing 
                                 'Web Developer',
                                 1000,
-                                'Mobile Developer',
+                                'Software Developer',
                                 1000,
-                                'UI/UX Designer',
+                                'Mobile Developer',
                                 1000
                             ]}
                             wrapper="span"
@@ -40,13 +39,13 @@ const HeroSection = () => {
                     </p>
                  
                     <div>
-                        <Link
+                        <Link target="_blank"
                         href="/images/documents/DucPhongMa(Kevin)_resume_G.pdf"
                         className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white"
                         >
                             Resume
                         </Link>
-                        <Link
+                        <Link target="_blank"
                         href="/images/documents/DucPhongMa_Jr. Technical Analyst Co-op.pdf"
                         className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3"
                         >

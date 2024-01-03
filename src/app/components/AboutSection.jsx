@@ -33,7 +33,7 @@ const TAB_DATA = [
         id: "certifications",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Tet event</li>
+                <li>Seneca's Tet 2023 event</li>
             </ul>
         )
     },
@@ -55,12 +55,15 @@ const AboutSection = () => {
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                 <h2 className='text-4xl font-bold text-white mb-4'>About me</h2>
                 <p className='text-base'>
-                    I'm Kevin Ma. I have a passion about web development. I'm really excited building a whole website. I hope I can find a job related to web developing
-                    especially frontend first and then learn more about backend so that I am able to acquire more knowledge and learn how to build a whole website. 
-                    And I will do my best to learn it and hope that I can be a fullstack developer in the future. <br /><br />
-                    I am currently attending Seneca College and am in Computer Programming and Analysis. During my time as a student in Seneca College, 
-                    I have gained experience in building server and client-site applications by using HTML5, CSS3, JavaScript, Node.js, Express.js as well as Microsoft SQL Server, Oracle 12c, and MongoDB. In addition, 
-                    I have gained a strong understanding of Objected-Oriented Programming in C++, RESTful API and using GIT for Source Control Management.
+                    Hello I'm Kevin Ma, I'm currently attending <span className='text-purple-400 font-bold'>Seneca College</span> and majoring in <span className='text-purple-400 font-bold'>Computer Programming and Analysis</span> in the last semester. 
+                    With the co-op experience in Software Developer at the <span className='text-purple-400 font-bold'>Ministry of Children, Community and Social Services (MCCSS)</span>, 
+                    I have gained valuable hands-on experience in the IT industry and enhanced my problem-solving and communication skills. 
+                    During this time with Seneca College and MCCSS, I have learned and worked extensively with frontend and backend development
+                    as well as Docker and AWS Cloud Computing.<br /><br />
+                    Additionally, I also have an understanding of Objected-Oriented Programming, Solid Principles, Unit Testing, Integration Testing and 
+                    knowledge of using GIT for Source Code Control Management.<br /><br />
+                    I'm currently seeking long-term opportunities as a Software Developer where my technical skills, abilities and knowledge can be utilized and continue expanding my skill set.
+                    With my dedication and practical experience, I'm eager to apply and collaborate with a dynamic team to drive the success of software development projects.
                 </p>
                 <div className='flex flex-row justify-start mt-8'>
                     <TabButton selectedTab={() => handleTabChange("skills")} active={tab === "skills"}>{" "}Skills{""}</TabButton>
