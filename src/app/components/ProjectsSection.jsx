@@ -31,6 +31,7 @@ const projectsData = [
         image: "/images/projects/Blog.jpg",
         tag: ["All"],
         gitURL: "https://github.com/DucPhongMa/WEB322_BlogPostAssignment",
+        previewURL: "https://unusual-newt-neckerchief.cyclic.app/blog"
     },
 ]
 const ProjectsSection = () => {
