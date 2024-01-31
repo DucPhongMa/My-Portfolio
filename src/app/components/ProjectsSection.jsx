@@ -33,6 +33,16 @@ const projectsData = [
         gitURL: "https://github.com/DucPhongMa/WEB322_BlogPostAssignment",
         previewURL: "https://unusual-newt-neckerchief.cyclic.app/blog"
     },
+    {
+        id: 4,
+        title: "AWS Cloud-based Microservice ",
+        description: "An AWS-based solution to manage generated data fragments via AWS services (ECS, ECR, ELB S3 Bucket, DynamoDB, Cognito) as well perform conversions based on respective types of data fragments and setup CI/CD pipelines for automatically building and deploying code.",
+        technology: "Technology used: AWS services, Node.js, Express.js, Docker",
+        image: "/images/projects/EC2-JSON.jpg",
+        tag: ["All"],
+        gitURL: "https://gitfront.io/r/mphong-duc/cCX3mWqwSaZu/fragments/",
+        previewURL: "https://youtu.be/reKOfN8Rluo"
+    }
 ]
 const ProjectsSection = () => {
     const ref = useRef(null);
