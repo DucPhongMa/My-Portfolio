@@ -25,11 +25,11 @@ const ExperienceSection = () => {
           animate={{x: 0, opacity: 1}} 
          transition={{duration: 0.5}} className="py-8">
           <ul className="ml-11 list-disc w-100 leading-relaxed">
-            <li>Helped get 2 out of 5 MCCSS's Digital Forms released successfully into production.</li>
-            <li>Made extensive use of Angular concepts such as Reactive form, Databinding, Directives, Pipes, Routing, HTTPS methods.</li>
-            <li>Developed responsive and user-friendly wed-based application with Angular 15+ and Ontario Design System.</li>
-            <li>Collaborated with the team of 11 members to enhance the web application functionalities, user interface and user experience.</li>
-            <li>Experienced with the SDLC in an Agile environment and project progress management using Azure DevOps.</li>
+            <li>Helped get 2 MCCSS's Digital Forms released successfully into production.</li>
+            <li>Implemented responsive, user-friendly single-page web applications using modern JavaScript framework Angular 15+ and TypeScript.</li>
+            <li>Participated in code refactoring activities to improve internal code performance, which enhances code maintainability. </li>
+            <li>Collaborated with designers, and business team to analyze and enhance the functionalities and visual appeal, aligning with the Ontario Design System.</li>
+            <li>Involved in Software Development Life Cycle (SDLC).</li>
             <li>Practiced to enhance knowledge of GIT control to manage source code.</li>
           </ul>
         </motion.div>

@@ -21,7 +21,7 @@ const projectsData = [
         image: "/images/projects/museum_2.png",
         tag: ["All"],
         gitURL: "https://github.com/DucPhongMa/WEB422_Assignment4",
-        previewURL: "https://web-422-assignment4-qvf8nscoq-ducphongma.vercel.app/"
+        previewURL: "https://web-422-assignment4.vercel.app/"
     },
     {
         id: 3,
