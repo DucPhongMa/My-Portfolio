@@ -31,7 +31,7 @@ const projectsData = [
         image: "/images/projects/Blog.jpg",
         tag: ["All"],
         gitURL: "https://github.com/DucPhongMa/WEB322_BlogPostAssignment",
-        previewURL: "https://unusual-newt-neckerchief.cyclic.app/blog"
+        previewURL: "https://web-322-blog-post-assignment.vercel.app/blog"
     },
     {
         id: 4,
